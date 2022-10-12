@@ -1,0 +1,41 @@
+body {
+    margin: 0 135px;
+    background-color: rgb(193, 186, 155);
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    margin: -20px 0 50px 0;
+    background-color: rgb(164, 158, 131);
+    justify-content: right;
+    align-items: right;
+}
+
+.navbar a{
+    padding: 10px;
+
+}
+
+aside > div {
+    width: 20%;
+    padding: .4rem ;
+    margin: .4rem;
+    float: right;
+    color: black;
+    background-color: rgb(164, 158, 131);
+}
+
+.vertical_line {
+    border-left: thick dashed rgb(193, 186, 155);
+    border-width: 5px;
+    height: max-content;
+  }
+
+dt {
+    background-color: rgb(164, 158, 131);
+    color: rgb(0, 0, 0);
+    width: min-content;
+}
