@@ -1,38 +1,100 @@
 body {
     margin: 0 135px;
     background-color: rgb(193, 186, 155);
-    font-size: 20px;
-    font-family: "Times New Roman";
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header,footer {
+    background-color: rgb(229, 221, 185);
+    font-weight: 200;
+    padding-left: .4rem;
+}
+
+article header {
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+    padding: .4rem;
+    width: min-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.site-title {
+    color: rgb(164, 158, 131)
 }
 
 .navbar {
     width: 100%;
     display: flex;
-    margin: -20px 0 50px 0;
-    background-color: rgb(164, 158, 131);
+    margin: -20px 0 20px 0;
     justify-content: right;
     align-items: right;
+    list-style-type: none;
 }
 
-.navbar a{
-    padding: 10px;
-
+.navbar li {
+    display: inline;
+    padding: .2rem;
+    
 }
 
-aside > div {
+.navbar a {
+    padding: .2rem;
+    list-style-type: none;
+    background-color: rgb(164, 158, 131);
+}
+
+a {
+    border: double rgb(229, 221, 185);
+    color: black;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { 
+    text-decoration: none; 
+    color: none;
+}
+
+a:hover { 
+    text-decoration: none;
+    background-color: rgb(229, 221, 185);;
+}
+
+a:active { text-decoration: none; }
+
+aside div {
     width: 20%;
-    padding: .4rem ;
+    padding: .4rem;
     margin: .4rem;
     float: right;
     color: black;
     background-color: rgb(164, 158, 131);
 }
 
+.hobbies_list {
+    list-style-type: square;  
+}
+
+.hobbies_list li {
+    padding: 0 .2rem;
+}
+
+.hobbies_list li:nth-child(odd) {
+    background-color: rgb(193, 186, 155);
+    width: fit-content;
+}
 .vertical_line {
     border-left: thick dashed rgb(193, 186, 155);
     border-width: 5px;
     height: max-content;
-  }
+}
 
 dt {
     background-color: rgb(164, 158, 131);
